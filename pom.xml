@@ -111,13 +111,13 @@
 
 		<distributionManagement>
         <repository>
-<releases>
-  <id>maven-release</id>
-  <url>http://13.232.214.56:8081/repository/maven-releases/</url>
+ <id>devshack-maven</id>
+  <url>https://pkgs.dev.azure.com/devopsshack1/00e43ab1-00ba-4bf7-9bd4-d333617efea4/_packaging/devshack-maven/maven/v1</url>
+		 <releases>
+    <enabled>true</enabled>
   </releases>
   <snapshots>
-    <id>maven-snapshots</id>
-  <url>http://13.232.214.56:8081/repository/maven-snapshots/</url>
+    <enabled>true</enabled>
   </snapshots>
 </repository>
     </distributionManagement>
